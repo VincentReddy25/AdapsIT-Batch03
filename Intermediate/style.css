@@ -1,0 +1,75 @@
+
+
+.para {
+    /* border-style: solid;
+    border-width: 10px;
+    border-color: blue; */
+
+    color: blue;
+    border: 10px solid black;
+    padding: 3em;
+    /* border-left: 2px solid black;
+    border-top: 10px double red; */
+
+    /* padding: 2em; */
+
+    /* margin: 2em; */
+    /* margin-top: 300px; */
+
+
+    width: 400px;
+    /* height: 200px; */
+    min-height: 200px;
+
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify;
+
+
+    background-color: lime;
+
+    background-image: url("https://4kwallpapers.com/images/wallpapers/prabhas-the-raja-2880x1800-23244.jpg");
+    background-image: url("https://wallpapers.com/images/featured/prabhas-mirchi-pictures-0jph8feogcnwes7j.jpg");
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    background-position: top;
+
+    background-image: linear-gradient(to right, red, yellow);
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+
+}
+
+
+
+/* 
+
+units: 
+fixed
+relative
+*/
+
+
+.btn-contact {
+
+    border: 1px solid black;
+    padding: .5em 2em;
+
+
+    text-decoration: none;
+
+    background: black;
+    color: white;
+
+    border-radius: 3px;
+
+    transition: .3s;
+}
+
+.btn-contact:hover {
+    background: white;
+    color: black;
+}

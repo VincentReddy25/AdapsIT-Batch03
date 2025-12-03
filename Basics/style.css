@@ -1,0 +1,49 @@
+
+
+* {
+    color: gray;
+}
+
+
+.para2 {
+    color: azure;
+}
+
+.para {
+    color: aqua;
+}
+
+
+#para {
+    color: brown;
+}
+
+#para2 {
+    color: red;
+}
+
+/* 
+selector {
+    property: value;
+}
+
+*/
+
+
+
+h1, h3, .para {
+    color: lime;
+}
+
+
+img {
+    width: 300px;
+    /* height: 500px; */
+}
+
+
+
+iframe {
+    width: 500px;
+    height: 700px;
+}
