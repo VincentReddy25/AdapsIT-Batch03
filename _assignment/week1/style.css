@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+}
+
+:root {
+    --primary-color: black;
+    --secondary-color: white;
+}
+
+/* Start writing code below this line  */
+
+
+
+/* Source code end */

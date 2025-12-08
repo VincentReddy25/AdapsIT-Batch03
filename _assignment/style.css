@@ -1,0 +1,111 @@
+/* style.css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #ffffff url("https://img.freepik.com/free-vector/abstract-modern-business-backdrop-presentation_1017-58813.jpg?semt=ais_hybrid&w=740&q=80") no-repeat center/cover;
+  color: #000000;
+  height: 100vh;
+}
+
+/* Center the card */
+.contact-wrapper {
+  max-width: 50%;
+  margin: 60px auto;
+  text-align: left;
+
+  background: #ffffff88;
+  padding: 2em;
+  border-radius: 25px;
+}
+
+/* Heading and subtitle */
+.contact-wrapper h1 {
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.contact-wrapper .subtitle {
+  text-align: center;
+  font-size: 14px;
+  color: #555555;
+  margin-bottom: 30px;
+}
+
+/* Form layout */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* Labels */
+.contact-form label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.contact-form label i {
+    margin-right: .5em;
+}
+
+/* Inputs and textarea */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #e0e0e0;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* Placeholder color */
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #9e9e9e;
+}
+
+/* Focus state */
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #000000;
+}
+
+/* Submit button */
+.btn-submit {
+  margin-top: 10px;
+  width: 100%;
+  padding: 12px 0;
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.btn-submit:hover {
+  opacity: 0.85;
+}
+
+.length {
+    color: gray;
+    font-size: 12px;
+    margin: 0;
+    text-align: right;
+}
