@@ -4,19 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background: #000;
+            color: white;
+        }
+        
+        .new-box {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
     
 </head>
 <body>
 
     <h1>JavaScript</h1>
 
-    <p class="pa paa" id="para">hello 1</p>
+    <p id="display">hello</p>
+
+    <button onclick="document.getElementById('display').innerHTML = 'bye' ">click me</button>
+
+    <div id="box" onclick="changeMe()">click me</div>
+
+    <!-- <p class="pa paa" id="para">hello 1</p>
     <p class="pa" id="para">hello 2</p>
-    <p class="pa" id="para">hello 3</p>
+    <p class="pa" id="para">hello 3</p> -->
     
 
     <!-- <script src="script.js"></script> -->
-    <script src="DOM.js"></script>
+    <!-- <script src="DOM.js"></script> -->
+     
+    <script src="events.js"></script>
 
 </body>
 </html>
