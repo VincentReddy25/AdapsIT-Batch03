@@ -1,0 +1,7 @@
+@use './btn';
+
+
+a {
+    @include btn.button(black, white);
+}
+
